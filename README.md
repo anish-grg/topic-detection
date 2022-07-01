@@ -6,7 +6,8 @@
 
 ## Project Directory
 
-- The app directory is the main project directory
-- Include all py files within that directory
+- The **app** directory is the main project directory
+- Includes all py files within that directory
 - main.py is the triggering py file
 - run all other py files through main.py
+
