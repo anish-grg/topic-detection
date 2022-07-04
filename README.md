@@ -10,8 +10,8 @@
 
 1. Install Docker (https://docs.docker.com/engine/install/)
 2. Navigate to the terminal and run the following commands:
-    a. docker image build -t token_name .
-    b. docker run token_name
+    - docker image build -t token_name .
+    - docker run token_name
 
 ## Note
 - Windows and Mac users, please write commands to build/run the docker in respective system
