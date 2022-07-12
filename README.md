@@ -11,7 +11,11 @@
 1. Install Docker (https://docs.docker.com/engine/install/)
 2. Navigate to the terminal and run the following commands:
     - docker image build -t token_name .
-    - docker run token_name
+    - docker run -e flag=task_string token_name
+    
+    (flag=task-string will is an argument will get passed to the main.py)
+    (flag=model will invoke a certain function which might be used to create a BERT model)
+    (flag=data will invoke a certain function which might be used to pull tweets)
 
 ## Note
 - Windows and Mac users, please write commands to build/run the docker in respective system
