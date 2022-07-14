@@ -141,7 +141,7 @@ def export_tweet_dataframe():
         tweet_df = pd.concat([tweet_df, df])
         # print("N of tweets downloaded", len(all_tweets))
     
-    tweet_df.to_csv("app/files/sample_lumin_last_10_tweets.csv")
+    tweet_df.to_csv('app/files/sample_lumin_last_10_tweets.csv')
     print('Sample Tweets exported succesfully!')
 
 def text_processing():
